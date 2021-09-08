@@ -1,0 +1,140 @@
+body {
+	margin: 0;
+	font-family: Tahoma, sans-serif;
+}
+
+header {
+	background-color: rgb(227,227,227);
+	color: rgb(13, 44, 57); 
+	padding-top: 3px;
+}
+footer{
+	clear: both;
+	color: white;
+	background-color: #0d2935;
+	height: 325px;
+	
+	
+}
+
+.centralizado {
+	width: 700px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#logo {
+	font-size: 1em;
+	margin-top: 0;
+	padding-top: 5px;
+}
+
+#logo span {
+	color: rgb(250, 127, 0);
+}
+
+header h2 {
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+header p {
+	font-size: 1em;
+}
+
+#pano-fundo {
+	height: 320px;
+	width: 620px;
+	background: url(../img/entregador_site4.png) no-repeat top right;
+}
+
+#slogan {
+	width: 300px;
+}
+
+header img {
+	float: left;
+	width: 200px;
+}
+
+header nav {
+	clear: left;
+	background-color: rgb(13, 42, 54);
+	padding: 5px 0;
+}
+
+header li {
+	display: inline;
+	padding: 0px 10px;
+	margin-right: 17px;
+}
+header li:last-child {
+	margin-right: 0;	
+}
+
+header li:first-child {
+	background-color: rgb(250, 127, 0);
+	padding: 10px;
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.contato {
+	background-color: rgb(1, 21, 31);
+	color: #fff;
+	padding: 5px;
+	width: 160px;
+	font-weight: bold;
+	font-size: 0.8em;
+	border-radius: 5px;
+	position: absolute;
+	top:0;
+	right: 0;
+}
+
+.contato span {
+	color: rgb(250, 127, 0);
+}
+
+main section {
+	width: 210px;
+	float: left;
+	margin-right: 20px;
+	border: 2px rgb(240, 240, 240) solid;
+}
+
+main section:last-child {
+	margin-right: 0;
+}
+main img {
+	width: inherit;
+	height: 150px;
+}
+
+.destaque {
+	 clip-path: polygon(0 0, 100% 0, 100% 70%, 60% 70%, 50% 100%, 40% 70%, 0 70%);
+	 background-color: rgb(13, 42, 54);
+	 width: inherit;
+	 height: 40px;
+	 color: white;
+}
+
+
+
+
+input{
+	border-radius: 5px;
+	background-color: #00151e;
+	color: white;
+	height: 20px;
+	border: none;
+	width: 90%;
+}
+
+
+
+
+
