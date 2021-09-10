@@ -1,0 +1,1 @@
+function potencia(){  for(var i=1n;i<=30n;i++){  console.log(4n**i)  }  }
