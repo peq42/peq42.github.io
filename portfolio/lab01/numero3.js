@@ -1,1 +1,0 @@
-function soma(){ var contador=0; for(var i=2;i<=1000;i=i+2){ contador=contador+i } return contador; }

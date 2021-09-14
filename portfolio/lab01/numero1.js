@@ -1,1 +1,0 @@
-function fatorial(numero){ var fatorialfinal=1; for(var i=1;i<=numero;i++){ fatorialfinal=fatorialfinal*i } return fatorialfinal  };fatorial(12)
