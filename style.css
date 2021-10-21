@@ -41,3 +41,48 @@ button {
 button:focus{
     background-color: #806400;
 }
+
+
+@media (min-width: 1200px) {
+    .topmenu{
+        visibility: hidden;
+    }
+    .sidemenu{
+        visibility: visible;
+    }
+}
+
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .topmenu{
+        visibility: hidden;
+    }
+    .sidemenu{
+        visibility: visible;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .topmenu{
+        visibility: visible;
+    }
+    .sidemenu{
+        visibility: hidden;
+    }
+}
+@media (max-width: 767px) and  (min-width: 576px) {
+    .topmenu{
+        visibility: visible;
+    }
+    .sidemenu{
+        visibility: hidden;
+    }
+}
+@media (max-width: 575px) {
+    .topmenu{
+        visibility: visible;
+    }
+    .sidemenu{
+        visibility: hidden;
+    }
+}

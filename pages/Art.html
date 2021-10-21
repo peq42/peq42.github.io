@@ -13,19 +13,12 @@
 </head>
 
 <body>
-	<script>
-	
-		if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-			document.getElementById("sidemenu").style.visibility="hidden"
-			document.getElementById("topmenumob").style.visibility="visible"
-		}
-		
-		</script>
+
 <br/>
 <center><h1>peq42</h1>
 <h3>I program stuff :D</h3></center>
 <br></br>
-<div id="topmenumob" style="visibility:hidden;">
+<div id="topmenumob" style="visibility:hidden;" class="topmenu">
 	<center>
 		<button onclick="window.location.href='https://peq42.github.io/';">Home</button>
 	
@@ -69,8 +62,8 @@
 
 
 
-<div style="float: right;width: 25%;">
-<h1 style="text-align: right;padding-right:45%;color: #c49a00;float: right;padding-right: 40%;">Menu</h1><br></br>
+<div style="float: right;width: 25%;" id="sidemenu">
+<h1 style="text-align: right;padding-right:45%;color: #c49a00;float: right;padding-right: 40%;" class="sidemenu">Menu</h1><br></br>
 
 	<center><br><br><br>
 	
@@ -83,8 +76,7 @@
 	<button onclick="window.location.href='https://peq42.github.io/pages/Art.html';" style="background-color: #806400;">Art</button>
 	<br>
 	<button onclick="window.location.href='https://peq42.github.io/pages/Contact.html';">Contact</button>
-	
-	</div>
+
 	</center>
 
 </div>
