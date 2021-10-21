@@ -17,7 +17,10 @@
 	
 		if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
 			for(var i=document.getElementsByTagName("span").length-1;i--;){
-				document.getElementsByTagName("span")[i].style.fontSize="36"	
+				document.getElementsByTagName("span")[i].style.fontSize="42"	
+			}
+			for(var i=document.getElementsByTagName("a").length-1;i--;){
+				document.getElementsByTagName("a")[i].style.fontSize="42"	
 			}
 		}
 		
