@@ -23,7 +23,7 @@ span{
     font-size: 20px;
 }
 button {
-    width: 125px;
+    width: 15vh;
     border-radius: 2px;
     background-color: #bd9400;
     border: none;
@@ -32,7 +32,7 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 2vh;
     margin: 4px 2px;
     cursor: pointer;
 }
